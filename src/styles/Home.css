@@ -1,0 +1,112 @@
+/* App.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #51848d;
+  
+}
+
+/* Navigation Bar styles */
+nav {
+  background-color: #333;
+  color: rgb(57, 159, 185);
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  
+  }
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(64, 140, 181);
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* Main Content styles */
+.main-content {
+  text-align: center;
+  padding: 2rem;
+  background-color: #3e7086;
+  margin: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+
+}
+
+.main-content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  color: #5c1a3a;
+}
+
+/* Image styles */
+.blockchain-image {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CSS for Connect Wallet button */
+.connect-wallet-button {
+  background-color: #007BFF; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding around the button text */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  font-weight: bold; /* Bold text */
+  margin-left: 10px; /* Add some spacing to the left of the button */
+}
+
+.connect-wallet-button:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+/* Add more styles for active and visited states if needed */
+
+
+/* Style anchor links in navigation menu */
+nav a {
+  text-decoration: none; /* Remove underline */
+  color: #333; /* Default text color */
+  
+}
+
+nav a:hover {
+  color: #007BFF; /* Change text color on hover */
+}
+
+nav a:active {
+  color: #0056b3; /* Change text color on click (active state) */
+}
+
+/* Add styles for visited links if needed */
+
